@@ -1,0 +1,1 @@
+Put the 'icon' folder in 'C:\xampp\htdocs\'.

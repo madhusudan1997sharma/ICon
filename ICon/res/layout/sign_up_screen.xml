@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="#0000A0"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit_text_style"
+        android:clickable="true"
+        android:padding="7dip"
+        android:password="false"
+        android:singleLine="true"
+        android:text="@string/Empty"
+        android:textColor="#0000A0"
+        android:hint="Enter Full Name" >
+
+        <requestFocus />
+
+        <requestFocus />
+
+    </EditText>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/number" 
+        android:textColor="#0000A0"
+        android:textStyle="bold"/>
+    
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textColor="#0000A0"
+        android:clickable="true"
+        android:padding="7dip"
+        android:inputType="number"
+        android:password="false"
+        android:singleLine="true"  
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit_text_style"
+        android:hint="Enter Phone Number">
+
+    </EditText>
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password" 
+        android:textColor="#0000A0"
+        android:textStyle="bold"/>
+    
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textColor="#0000A0"
+        android:clickable="true"
+        android:password="true"
+        android:padding="7dip"
+        android:singleLine="true"  
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit_text_style"
+        android:hint="Enter Password"/>
+    
+     <TextView
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/password_again" 
+         android:textColor="#0000A0"
+         android:textStyle="bold"/>
+    
+    <EditText
+        android:id="@+id/passwordAgain"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textColor="#0000A0"
+        android:clickable="true"
+        android:password="true"
+        android:singleLine="true"  
+        android:padding="7dip"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit_text_style"
+        android:hint="Confirm Password"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email" 
+        android:textColor="#0000A0"
+        android:textStyle="bold"/>
+    
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textColor="#0000A0"
+        android:clickable="true"
+        android:password="false"
+        android:singleLine="true" 
+        android:padding="7dip"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/edit_text_style"
+        android:hint="Enter Email"/>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" 
+        android:layout_marginBottom="20dp">
+			  
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/sign_up"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="@drawable/button_background"
+        android:layout_marginRight="1dip"/>
+
+    <Button
+        android:id="@+id/cancel_signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/cancel"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="@drawable/button_background"
+        android:layout_marginLeft="1dip"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <TextView
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:padding="10dip"
+       android:text="@string/friendNumber"
+       android:textColor="#0000A0"
+       android:textStyle="bold" />
+    
+    <EditText
+        android:id="@+id/newFriendUsername"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="7dip"
+        android:layout_marginBottom="45dip"
+        android:background="@drawable/edit_text_style"
+        android:textColor="#0000A0"
+        android:color="#0000A0"
+        android:clickable="true"
+        android:inputType="number"
+        android:padding="7dip"
+        android:singleLine="true"
+        android:text="@string/Empty"
+        android:hint="Enter Friend's Phone Number" />
+    
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="50dp"
+       android:layout_margin="7dip"
+       android:orientation="horizontal">
+
+	 <Button
+	     android:id="@+id/addFriend"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_weight="1"
+         android:textColor="#FFFFFF"
+         android:textStyle="bold"
+         android:background="@drawable/button_background"
+	     android:text="@string/Add" 
+         android:layout_marginRight="1dp"/>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="@drawable/button_background"
+        android:text="@android:string/cancel" 
+        android:layout_marginLeft="1dp"/>
+
+	</LinearLayout>
+	   			  
+</LinearLayout>
